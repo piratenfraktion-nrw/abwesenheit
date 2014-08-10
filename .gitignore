@@ -30,3 +30,4 @@ _testmain.go
 certs/*.pem
 certs/*.key
 
+*.*~
