@@ -14,8 +14,8 @@ func main() {
 	runtime.GOMAXPROCS(runtime.NumCPU()) // use all CPU cores
 
 	err := configuration.Load() // TODO: Schauen, ob es sinnig ist, ein Load() zu Beginn von Save() aufzurufen, damit vorhande Werte nicht geloescht werden
-	configuration.Config.Port = ":8080"
-	configuration.Save()
+	//configuration.Config.Port = ":8080"
+	//configuration.Save()
 
 	if err != nil {
 		log.Fatal(err)
